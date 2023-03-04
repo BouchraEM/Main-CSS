@@ -1,0 +1,155 @@
+* {
+  box-sizing: content-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.navbar,
+.hero-container {
+  background-color: orange;
+}
+
+.navbar {
+  color: darkred;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 10rem;
+}
+
+.hero-container h1 {
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-container p {
+  color: black;
+  font-size: 18px;
+}
+
+.text-container {
+  width: 37%;
+}
+
+.btn {
+  background-color: #791a0b;
+  border-radius: 5px;
+  border: none;
+  color: #f9faf8;
+  margin: 1rem 0;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+
+.placeholder-img {
+  height: 250px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.animal {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.animal h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.card-item {
+  height: 150px;
+  margin: 20px;
+  width: 150px;
+}
+
+.box img {
+  border-radius: 10px;
+  height: 150px;
+  width: 200px;
+  margin: 10px 10px;
+}
+
+.box-subtext {
+  text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  justify-content: center;
+  padding: 10rem 22rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.action {
+  align-items: center;
+  background-color: orange;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-content: space-around;
+  margin: 3rem auto;
+  padding: 2rem;
+  width: 70%;
+}
+
+.action p,
+span {
+  color: #f9faf8;
+}
+
+.alt-btn {
+  background-color: #791a0b;
+  border-radius: 5px;
+  border: 1px solid #f9faf8;
+  color: #f9faf8;
+  padding: 0.5rem 2rem;
+}
+
+footer {
+  align-items: center;
+  background-color: black;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
