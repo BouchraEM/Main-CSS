@@ -1,7 +1,7 @@
 * {
   box-sizing: content-box;
   font-family: "Roboto", sans-serif;
-  border-radius: 25px;
+  margin: 0;
 }
 
 .navbar,
