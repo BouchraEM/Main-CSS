@@ -4,13 +4,13 @@
   margin: 0;
 }
 
-.navbar,
 .hero-container {
   background-color: orange;
 }
 
 .navbar {
-  color: darkred;
+  background-color: black;
+  color: orange;
   display: flex;
   justify-content: space-between;
   padding: 1rem 10rem;
@@ -18,11 +18,17 @@
 
 .navbar ul {
   display: flex;
+  list-style-type: none;
 }
 
-.navbar ul li {
+.navbar a {
   list-style-type: none;
+  color: white;
   margin: 0 5px;
+}
+
+.navbar li:active {
+  color: white;
 }
 
 .hero-container {
@@ -84,15 +90,16 @@
 
 .card-item {
   height: 150px;
-  margin: 20px;
+  margin: 10px 20px;
   width: 150px;
 }
 
 .box img {
+  display: flex;
   border-radius: 10px;
   height: 150px;
   width: 200px;
-  margin: 10px 10px;
+  margin: 10px 0px;
 }
 
 .box-subtext {
